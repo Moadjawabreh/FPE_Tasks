@@ -1,0 +1,11 @@
+.parent {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.parent > div {
+  padding: 10px;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first {
+        height: 60vh;
+        font-size: 2em;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+        color: black;
+        background-color: sienna;
+}
+.secondrow{
+    background-color: sandybrown;
+    height: 60vh;
+}
+
+.bar{
+    display: flex;
+        justify-content: center;
+        align-items: center;  
+        color: green;
+}
+.bar >span{
+    margin-left: 20px;
+}
+
+
+.parent{
+    height: 90vh;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+
+.formd{
+    width: 250px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24);
+    padding: 10px;
+}
+.forminfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.inputsize{
+    width: 240px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px lightblue solid;
+}
+.labelinfo{
+color:grey ;
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="first">
+        <div >THIS IS MY BANNER TEXT</div> 
+</div>
+
+<div class="secondrow">
+<div class="bar" style="height: 40px;" >
+<span>HOME</span><span>INFO</span><span>CONTACT</span><span>HUBPAGES</span>
+
+
+</div>
+<h1>This Is My Paragraph Header</h1>
+<p style="color: sienna;font-weight: bold;">This is where I am going to put useful and informative text about my website</p>
+<p style="color: sienna;font-weight: bold;">This is where I am can place even more information about my website</p>
+<p >This is where I am going to put useful and informative text about my website</p>
+</div>
+
+<div style="height: 40vh;"></div>
+
+
+<div class="parent">
+
+    <div class="formd">
+        <div class="forminfo"><h2>CODEWITHRANDOM</h1>
+            <p>Thank you for Being with me</p> </div>    
+       <form action="">
+        <div class="labelinfo"><label >Name</label></div>
+        <input class="inputsize" type="text">
+        <div class="labelinfo"><label >E-mail</label></div>
+        <input class="inputsize" type="email">
+        <div class="labelinfo"><label >Password</label></div>
+        <input class="inputsize" type="password">
+        <div class="labelinfo"><label for="name">Repeat password</label></div>
+        <input class="inputsize" type="password">
+
+        <div class="forminfo" style="margin-top: 20px;"><button style="height: 30px; width: 100px; background-color:rgb(120, 239, 227) ; border-color:rgb(120, 239, 227) ; border-radius: 6px;">asfd</button></div>
+
+       </form>
+    </div>
+
+</div>
+
+
+</body>
+</html>

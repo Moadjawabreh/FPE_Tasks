@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .container {
+        display: flex;
+        height: 100vh;
+      }
+
+      /* Style the columns */
+      .column {
+        flex: 1;
+        background-color: #f2f2f2;
+        padding: 20px;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Style the text within the columns */
+      .text {
+        text-align: center;
+        font-size: 18px;
+      }
+
+      .parent {
+        padding: 10px;
+        display: flex;
+        height: 100vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .parent > div {
+        background-color: blueviolet;
+        padding: 1px;
+        margin: 1px;
+        width: 200px;
+      }
+      .parent2 {
+        display: flex;
+        height: 100vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 5px solid chocolate;
+      }
+
+      .parent2 > div {
+        width: 97.5px;
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div style="background-color: orange" class="column">
+        <div class="text">First Part</div>
+      </div>
+      <div style="background-color: blue" class="column">
+        <div class="text">Second Part</div>
+      </div>
+    </div>
+
+    <div style="margin-top: 400px"></div>
+
+    <div class="parent">
+      <img style="height: 150px" src="images.jpeg" />
+      <img style="height: 150px" src="images.jpeg" />
+      <img style="height: 150px" src="images.jpeg" />
+      <img style="height: 150px" src="images.jpeg" />
+      <img style="height: 150px" src="images.jpeg" />
+      <img style="height: 150px" src="images.jpeg" />
+      <img style="height: 150px" src="images.jpeg" />
+      <img style="height: 150px" src="images.jpeg" />
+      <img style="height: 150px" src="images.jpeg" />
+      <img style="height: 150px" src="images.jpeg" />
+    </div>
+
+    <div style="margin-top: 400px"></div>
+
+    <div class="parent">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+    </div>
+
+    <div style="margin-top: 400px"></div>
+
+    <div class="parent2">
+      <div style="background-color: red">1</div>
+      <div style="background-color: blueviolet">2</div>
+      <div style="background-color: crimson">3</div>
+      <div style="background-color: yellow">4</div>
+      <div style="background-color: tomato">5</div>
+      <div style="background-color: slateblue">6</div>
+      <div style="background-color: cornflowerblue">7</div>
+      <div style="background-color: blue">8</div>
+      <div style="background-color: seagreen">9</div>
+      <div style="background-color: deeppink">10</div>
+    </div>
+  </body>
+</html>
